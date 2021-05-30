@@ -22,7 +22,7 @@ Install dependencies:
 $ npm install
 ```
 
-First you have to have a json file defining the subway structure. For this you can follow the sample `sampleInput.json` provided at the project root.
+You need to have a json file defining the subway structure. For this you can follow the sample `sampleInput.json` or `metroDeChile.json` provided at the project root.
 
 There is also a schema file `networkSchema.js` following JSONSchema spec that you can check for validating your json data.
 
