@@ -1,0 +1,42 @@
+{
+  "author": "Adrian Parry",
+  "networkName": "Metro sample 1",
+  "stations": [
+    {
+      "Ñuble": {
+        "linkedWith": ["Irarrazaval"]
+      },
+      "Irarrazaval": {
+        "color": "red",
+        "linkedWith": ["Ñuble", "Santa Isabel"]
+      },
+      "Santa Isabel": {
+        "color": "green",
+        "linkedWith": ["Irarrazaval", "Parque Bustamante"]
+      },
+      "Parque Bustamante": {
+        "color": "red",
+        "linkedWith": ["Santa Isabel", "Baquedano"]
+      },
+      "Baquedano": {
+        "linkedWith": [
+          "Parque Bustamante",
+          "Bellas Artes",
+          "Universidad Católica",
+          "Salvador"
+        ]
+      },
+      "Salvador": {
+        "color": "red",
+        "linkedWith": ["Baquedano"]
+      },
+      "Universidad Católica": {
+        "color": "green",
+        "linkedWith": ["Baquedano"]
+      },
+      "Bellas Artes": {
+        "color": "green",
+        "linkedWith": ["Baquedano"]
+      }
+  ]
+}

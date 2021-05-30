@@ -1,0 +1,112 @@
+{
+  "author": "Adrian Parry",
+  "networkName": "Metro sample 1",
+  "stations": {
+    "Ñuble": {
+      "linkedWith": ["Irarrazaval", "Bio Bio"]
+    },
+    "Irarrazaval": {
+      "linkedWith": ["Ñuble", "Santa Isabel", "Matta"]
+    },
+    "Santa Isabel": {
+      "color": "green",
+      "linkedWith": ["Irarrazaval", "Parque Bustamante"]
+    },
+    "Parque Bustamante": {
+      "color": "red",
+      "linkedWith": ["Santa Isabel", "Baquedano"]
+    },
+    "Baquedano": {
+      "linkedWith": [
+        "Parque Bustamante",
+        "Bellas Artes",
+        "Universidad Católica",
+        "Salvador"
+      ]
+    },
+    "Bellas Artes": {
+      "color": "green",
+      "linkedWith": ["Baquedano", "Plaza de Armas"]
+    },
+    "Plaza de Armas": {
+      "linkedWith": [
+        "Bellas Artes",
+        "Santa Ana",
+        "Cal y Canto",
+        "Universidad de Chile"
+      ]
+    },
+    "Cal y Canto": {
+      "linkedWith": ["Plaza de Armas", "Santa Ana"]
+    },
+    "Santa Ana": {
+      "linkedWith": ["Plaza de Armas", "Cal y Canto", "Cumming", "Los Heroes"]
+    },
+    "Cumming": {
+      "color": "green",
+      "linkedWith": ["Santa Ana", "Quinta Normal"]
+    },
+    "Quinta Normal": {
+      "color": "red",
+      "linkedWith": ["Cumming", "Gruta de Lourdes"]
+    },
+    "Gruta de Lourdes": {
+      "color": "green",
+      "linkedWith": ["Quinta Normal", "Blanqueado"]
+    },
+    "Blanqueado": {
+      "color": "green",
+      "linkedWith": ["Gruta de Lourdes"]
+    },
+    "Salvador": {
+      "color": "red",
+      "linkedWith": ["Baquedano"]
+    },
+    "Universidad Católica": {
+      "color": "green",
+      "linkedWith": ["Baquedano", "Santa Lucia"]
+    },
+    "Santa Lucia": {
+      "color": "red",
+      "linkedWith": ["Universidad Católica", "Universidad de Chile"]
+    },
+    "Universidad de Chile": {
+      "linkedWith": [
+        "Santa Lucia",
+        "Plaza de Armas",
+        "La Moneda",
+        "Parque Almagro"
+      ]
+    },
+    "La Moneda": {
+      "linkedWith": ["Universidad de Chile", "Los Heroes"]
+    },
+    "Los Heroes": {
+      "linkedWith": ["La Moneda", "Santa Ana", "Toesca"]
+    },
+    "Toesca": {
+      "linkedWith": ["Los Heroes", "Parque O'Higgins"]
+    },
+    "Parque O'Higgins": {
+      "linkedWith": ["Toesca", "Rondizzoni"]
+    },
+    "Rondizzoni": {
+      "linkedWith": ["Parque O'Higgins", "Franklin"]
+    },
+    "Franklin": {
+      "color": "red",
+      "linkedWith": ["Rondizzoni", "Bio Bio"]
+    },
+    "Bio Bio": {
+      "color": "green",
+      "linkedWith": ["Franklin", "Ñuble"]
+    },
+    "Parque Almagro": {
+      "linkedWith": ["Universidad de Chile", "Matta"]
+    },
+    "Matta": {
+      "color": "red",
+      "linkedWith": ["Parque Almagro", "Irarrazaval"]
+    }
+  }
+}
